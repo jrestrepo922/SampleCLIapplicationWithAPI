@@ -1,0 +1,10 @@
+# the executable. The thing that I run to run the project 
+
+#!/usr/bin/env ruby      # infomns the computer that is a ruby file. run it as ruby. 
+
+
+
+require_relative "../lib/enviroment"      #allows access to any code written in enviroment.rb 
+
+# intantiating the  Cli class and calling the instance method run. This will contain all the code in all the files that needs to be run in a specific order
+Cli.new.run
